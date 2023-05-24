@@ -164,7 +164,7 @@ onMounted(() => {
     <div class="bg-white shadow-lg rounded-sm mb-8">
         <div class="flex flex-col md:flex-row md:-mr-px">
             <VSidebarSetting :module="additional.menu" />
-            <div class="grow">
+            <div class="grow overflow-scroll">
                 <!-- Panel Header -->
                 <div class="border-b">
                     <h2 class="text-2xl text-slate-800 font-bold p-6">Role Management</h2>
